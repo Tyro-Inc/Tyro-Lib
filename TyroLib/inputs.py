@@ -1,5 +1,10 @@
 import pyautogui, keyboard
 
+
+class Input:
+    def __init__(self):
+        self.Mouse = Mouse()
+        self.Keyboard = Keyboard()
 class Mouse:
     def __init__(self):
         pass
@@ -34,3 +39,5 @@ class Keyboard:
     
     def press(self, key):
         keyboard.send(key)
+        
+Input = Input()

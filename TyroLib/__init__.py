@@ -1,3 +1,3 @@
 from .Tyro import App
-from .inputs import Keyboard, Mouse
+from .inputs import Input
 
